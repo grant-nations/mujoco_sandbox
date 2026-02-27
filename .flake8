@@ -1,0 +1,8 @@
+[flake8]
+# Recommend matching Black's default line length
+max-line-length = 88
+extend-ignore =
+    # Black introduces these "errors," so we tell Flake8 to hush.
+    E203,  # whitespace before ':'
+    E501,  # line too long (handled by Black)
+    W503   # line break before binary operator

@@ -1,0 +1,3 @@
+mujoco
+myosuite
+gymnasium[classic-control]
